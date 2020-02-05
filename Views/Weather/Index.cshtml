@@ -1,0 +1,32 @@
+﻿@model WeatherVM
+@{
+    ViewData["Title"] = "CheckWeatherSystem";
+}
+
+<h2>CheckWeatherSystem</h2>
+
+<div>
+
+    <h3>Your Local City:</h3>
+    <div>
+        City:<p>@Model.LocalCity.Name</p>
+        Temperature:<p>@Model.LocalCity.Temperature <sup>o</sup>C</p>
+    </div>
+
+    <form>
+        <span class="text-danger"> @Html.ValidationMessage("CityError") </span> <br />
+        <input type="text" asp-for="AskedCity.Name" />
+
+        <input type="submit" value="Check weather" asp-controller="Weather" asp-action="CheckWeather" />
+    </form>
+    @if(!(Model.AskedCity.Name is null))
+    {
+        <br />
+    <div>
+        Chosen city:<p>@Model.AskedCity.Name</p>
+        Temperature:<p>@Model.AskedCity.Temperature <sup>o</sup>C</p>
+    </div>
+    }
+   
+
+</div>

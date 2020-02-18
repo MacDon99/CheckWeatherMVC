@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macie\\Desktop\\WeatherSystem\\WeatherSystem.csproj",
+      "projectUniqueName": "C:\\Users\\macie\\CheckWeatherMVC\\WeatherSystem.csproj",
       "projectName": "WeatherSystem",
-      "projectPath": "C:\\Users\\macie\\Desktop\\WeatherSystem\\WeatherSystem.csproj",
+      "projectPath": "C:\\Users\\macie\\CheckWeatherMVC\\WeatherSystem.csproj",
       "packagesPath": "C:\\Users\\macie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macie\\Desktop\\WeatherSystem\\obj\\",
+      "outputPath": "C:\\Users\\macie\\CheckWeatherMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
